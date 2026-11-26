@@ -149,3 +149,8 @@ figure.float-right { float: right; margin: 6px 0 16px 28px; max-width: 45%; }
 .site-footer a { color: rgba(255,255,255,0.8); text-decoration: none; }
 .site-footer a:hover { color: #fff; }
 .text.intro { font-size: 20px; line-height: 1.55; color: var(--ink); font-weight: 500; }
+.video-list { list-style: none; padding: 0; margin: 8px auto 18px; max-width: var(--read); }
+.video-list li { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.video-list a { font-weight: 600; text-decoration: none; }
+.video-list a::before { content: "▶"; display: inline-block; margin-right: 10px; color: var(--accent); font-size: 13px; }
+.video-list .meta { color: var(--muted); font-size: 15px; }
