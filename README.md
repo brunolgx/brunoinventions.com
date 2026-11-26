@@ -1,8 +1,11 @@
 # brunoinventions.com
 
-Site statique de Bruno Legaignoux, migré de Weebly vers GitHub Pages.
+Site statique de Bruno Legaignoux, hébergé sur GitHub Pages (anciennement Weebly).
 
-- Pages HTML à la racine, images dans `uploads/`, thème dans `files/main_style.css`.
-- `assets/compat.css` et `assets/site.js` remplacent les styles et scripts Weebly.
-- Formulaire de contact : Web3Forms (clé `access_key` dans `contact.html`).
-- Domaine : fichier `CNAME` (www.brunoinventions.com).
+- Une page HTML par page du site, à la racine.
+- Styles : `assets/style.css` · Script (menu mobile, formulaire) : `assets/main.js`.
+- Images : `uploads/`.
+- Formulaire de contact : Web3Forms (champ `access_key` dans `contact.html`).
+- Pages en préparation : branche `brouillons` (non publiée).
+
+Pour modifier un texte, éditer la page HTML correspondante directement sur GitHub (icône crayon) : le site se met à jour en une minute.
