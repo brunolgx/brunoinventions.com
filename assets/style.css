@@ -70,15 +70,15 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; color: var(--ink); line-heig
 }
 
 /* Accueil */
-.hero { background: radial-gradient(1200px 400px at 80% -10%, #2a3446 0%, transparent 60%), var(--navy); color: #fff; padding: 72px 0 64px; }
-.hero h1 { color: #fff; font-size: clamp(32px, 5vw, 54px); font-weight: 800; margin: 8px 0 14px; max-width: 16ch; }
+.hero { background: radial-gradient(1200px 400px at 80% -10%, #2a3446 0%, transparent 60%), var(--navy); color: #fff; padding: 44px 0 40px; }
+.hero h1 { color: #fff; font-size: clamp(30px, 4.2vw, 46px); font-weight: 800; margin: 6px 0 10px; }
 .eyebrow { text-transform: uppercase; letter-spacing: 0.14em; font-size: 12px; font-weight: 600; color: var(--accent); margin: 0; }
-.hero-sub { font-size: 19px; color: rgba(255,255,255,0.75); margin: 0 0 28px; max-width: 44ch; }
+.hero-sub { font-size: 18px; color: rgba(255,255,255,0.75); margin: 0 0 22px; max-width: 44ch; }
 .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 .dot { color: var(--accent); }
 
 /* En-tête des pages (léger, plus de grosse barre noire) */
-.page-head { background: var(--bg-soft); border-bottom: 1px solid var(--line); padding: 40px 0 32px; }
+.page-head { background: var(--bg-soft); border-bottom: 1px solid var(--line); padding: 28px 0 24px; }
 .page-head h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 800; margin: 0; }
 .lede { font-size: 19px; color: var(--muted); margin: 12px 0 0; max-width: 60ch; }
 .crumbs { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
@@ -88,7 +88,7 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; color: var(--ink); line-heig
 
 /* Contenu */
 .article { padding-top: 40px; padding-bottom: 72px; }
-.article > .text, .article > h2, .article > ul, .article > p, .article > form { max-width: var(--read); margin-left: auto; margin-right: auto; }
+.content > .text, .content > h2, .content > ul, .content > p, .content > form { max-width: var(--read); margin-left: auto; margin-right: auto; }
 .article h2 { font-size: 26px; font-weight: 700; margin: 48px auto 14px; }
 .article h2:first-child { margin-top: 8px; }
 .text { margin: 0 auto 18px; }
